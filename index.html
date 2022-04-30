@@ -1,7 +1,13 @@
 <!DOCTYPE HTML>
-<style>	.grid{
+<style>	
+	.grid{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.inlayBorder{
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+		width: 200px;
+		margin: auto auto;
 	}
 </style>
 <html>
@@ -24,63 +30,59 @@
 							<article style="text-align:center">
 								<header>
 									<p>
-										First I would like to share my longest commitment, a full web-system coded for an <br> 
-										actual real estate coaching company using Html, CSS, Javascript,<br> 
-										SQL (mysqli) and PHP
+										A full web-based system coded for an <br> 
+										existing real estate coaching company using <span style="color:red">Html, CSS, Javascript,<br> 
+										SQL (mysqli) and PHP</span>
 									</p>
-									<p style="color:red">Please click the picture for more information</p>
+									<p style="color:red;font-weight:bold">Please click the picture for more information</p>
 									<p>February, 2021 through October, 2021</p>
 								</header>
-								<a href="page2.html" ><img src="images/pic01.jpg" style="width:200px"/></a>
-							</article>
-							
+								<br></br>
+								<div class="inlayBorder">
+									<a href="page2.html" ><img src="images/pic01.jpg" style="width:200px"/></a>
+								</div>
+							</article>	
 						</div>
+
 						<div class="item item2">
 							<!-- Featured Post -->
-								<article style="text-align:center">
-									<header>
-										<p>	
-											Second is an ongoing project called Days Since<br>
-											This is an app meant to help people to quit an addiction
-										</p>
-										<p style="color:red">Please click the picture for more information</p>
+							<article style="text-align:center">
+								<header>
+									<p>Next, a little different from the rest, I'll include a logistic regression<br> 
+												I did in R on probability of binary star systems, using a dataset<br>
+												I got from NASA<br></br>
+									</p>
+									<p style="color:red;font-weight:bold">Please click the blue text below for more information</p>
+									<p>Spring, 2021</p>
 									</header>
-									<a href="page3.html" ><img src="images/pic01.jpg" style="width:200px"/></a>
-								</article>
-								
-							</div>
+									<br></br>
+									<div class="inlayBorder">
+										<a href="page4.html" ><img src="images/pic02.jpg" style="width:200px"/></a>
+									</div>
+							</article>
+									
+						</div>	
 							<div class="item item3">
 								<!-- Featured Post -->
 									<article style="text-align:center">
 										<header>
-											<p>Next, a little different from the rest, I'll include a logistic regression<br> 
-												I did in R on probability of binary star systems, using a dataset<br>
-												I got from NASA<br></br>
-											</p>
-											<p style="color:red">Please click the picture for more information</p>
-											<p>Spring, 2021</p>
-										</header>
-										<a href="page4.html" ><img src="images/pic03.jpg" style="width:200px"/></a>
-									</article>
-									
-							</div>	
-							<div class="item item4">
-								<!-- Featured Post -->
-									<article style="text-align:center">
-										<header>
-											<p>This problem is an encoder that encodes any provided message<br>
+											<p>This problem requires an encoder that encodes any provided message<br>
 											by concatenating "AV" in front of any vowel, unless it's two vowels in a row</br>
 											</p>
-											<p style="color:red">Please click the picture for more information</p>
+											<p style="color:red;font-weight:bold">Please click the text below to view</p>
 											<p>Spring, 2022</p>
-											
 										</header>
-										<a href="page5.html" ><img src="images/pic05.jpg" style="width:200px"/></a>
+										<br></br>
+										<div class="inlayBorder">
+											<a href="page5.html" ><img src="images/pic03.jpg" style="width:200px"/></a>
+										</div>
 									</article>
 									
 							</div>	
 					</div>
-
+					<br></br>
+					<br></br>
+	</body>
 				<!-- Footer -->
 					<footer id="footer" style="text-align:center">
 						<section>
@@ -104,6 +106,4 @@
 							
 						</section>
 					</footer>
-			</div>
-	</body>
 </html>
